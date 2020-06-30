@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F9F9;
+}
+main{
+    padding:0 20px 0 140px;
+    min-height: 100%;
+    background-color: #F9F9F9;
+}
+main#account{
+    margin-left:140px;
+}
+
+#__next{
+    height: 100%;
+}
+
+.btn{
+    text-transform:none !important;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.primary-green-bg{
+    background-color: #0F9670 !important;
+}
+
+.primary-green-text{
+    color:#0F9670;
+}
+
+.shadow{
+    box-shadow: 0 0 10px -5px rgba(0,0,0,.4) !important;
+}
+
+.h5__title{
+    font-weight: 600;
+}
+
+
+input[type="text"],input[type="date"],.form input[type="email"],textarea, select{
+    outline:none !important;
+    border-bottom: none !important;
+    border:1px solid #D8D8D8 !important;
+    border-radius: 4px !important;
+    margin-top: 10px !important;
+    padding-left: 10px !important;
+    width: 100% !important;
+    box-sizing:border-box !important;
+    box-shadow: none!important;
+}
+
+input[type="text"]:focus,input[type="date"]:focus,select:focus,textarea:focus{
+    border-bottom:none !important;
+    border: 1px solid #0F9670 !important;
+    box-shadow: none!important;
+}
+
+textarea{
+    resize:none;
+    height: auto !important;
+    padding:5px 0;
+}
+.form input::placeholder{
+    color: black !important;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+
+.add-cta{
+    background-color:#0F9670 !important;
+    width:150px;
+    height:40px;
+    margin-right:0 !important;
+    border-radius:4px;
+    margin-top:10px;
+}
+
+.disabled-btn{
+    width:150px;
+    height:40px;
+    margin-right:0 !important;
+    border-radius:4px;
+    margin-top:10px;
+}
+
+#row-search{
+    padding: 0 10px 10px 0;
+    border-bottom:1px solid #f7f7f7;
+}
+#search{
+    outline:none;
+    border:none !important;
+    background-color:#F8F8F8;
+    border-radius:7px;
+    padding-left:20px;
+   }
+
+#search:focus{
+    outline:none !important;
+    border-bottom: none!important;
+}

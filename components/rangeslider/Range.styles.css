@@ -1,0 +1,29 @@
+.range-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.range-bg{
+    width: 100%;
+    height: 8px;
+    background: #C3E5DB;
+    border-radius: 20px;
+    position: relative;
+}
+
+.range-cover{
+    width: 0%;
+    height: inherit;
+    background: #4BB093;
+    border-radius: 20px;
+}
+
+.range-dot{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #4BB093;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 0%
+}
